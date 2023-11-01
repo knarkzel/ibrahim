@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Ibrahim's blog{% endblock %}
+
+{% block body %}
+<h1>Hi I'm Ibrahim</h1>
+<h3>I'm a software developer and muslim revert from Norway</h3>
+<p>Currently I run my own digital marketing agency. I also love developing projects using Rust for blazing fast performance. For managing servers I use NixOS.</p>
+<p>These are my favourite languages:</p>
+<ol>
+  <li>Rust</li>
+  <li>Nix</li>
+  <li>Svelte</li>
+</ol>
+<picture>
+  <source srcset="/static/mosque.avif" type="image/avif" />
+  <img src="/static/mosque.jpg" alt="Mosque" width="720" height="393" />
+</picture>
+{% endblock %}
